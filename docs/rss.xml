@@ -1,4 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小阿巴的博客</title><link>https://2SHANLIANG1.github.io/xiaoAB</link><description>这是一个学习的过程</description><copyright>小阿巴的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://2SHANLIANG1.github.io/xiaoAB</link></image><lastBuildDate>Fri, 12 Jun 2026 07:26:00 +0000</lastBuildDate><managingEditor>小阿巴的博客</managingEditor><ttl>60</ttl><webMaster>小阿巴的博客</webMaster><item><title>我的第一篇博客</title><link>https://2SHANLIANG1.github.io/xiaoAB/post/wo-de-di-yi-pian-bo-ke.html</link><description># 我的第一篇博客
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小阿巴的博客</title><link>https://2SHANLIANG1.github.io/xiaoAB</link><description>这是一个学习的过程</description><copyright>小阿巴的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://2SHANLIANG1.github.io/xiaoAB</link></image><lastBuildDate>Fri, 12 Jun 2026 09:21:44 +0000</lastBuildDate><managingEditor>小阿巴的博客</managingEditor><ttl>60</ttl><webMaster>小阿巴的博客</webMaster><item><title>大语言模型学习</title><link>https://2SHANLIANG1.github.io/xiaoAB/post/da-yu-yan-mo-xing-xue-xi.html</link><description>#总结
+
+**##1.什么是LLM:**
+通过大量数据堆积训练的上下文对话模型——大语言模型
+为什么大：因为数据量大
+##什么是Token
+大语言模型的计算单位，表示一个字符所占的单位（一个标点、或者一个字母）中文一个汉字可能占1~1.5个token
+
+**##什么是词表**
+把每一个字每一个符号赋予一个id的表格，计算机不认识字只认识数字，所以需要将字符赋予对应的id给计算机搜索,LIKE:
+
+&lt;img width='1069' height='869' alt='Image' src='https://github.com/user-attachments/assets/b89275a3-902e-40a5-bc80-aa32bfd1abad' /&gt;
+
+**##什么是上下文长度：**
+模型单次能获取的最大token数，Like：模型上下文长度1000=问题500+回答300回答正常，一旦回答超过500就会忘记最开始问题的500，产生所谓的“失忆”。</description><guid isPermaLink="true">https://2SHANLIANG1.github.io/xiaoAB/post/da-yu-yan-mo-xing-xue-xi.html</guid><pubDate>Fri, 12 Jun 2026 09:21:08 +0000</pubDate></item><item><title>我的第一篇博客</title><link>https://2SHANLIANG1.github.io/xiaoAB/post/wo-de-di-yi-pian-bo-ke.html</link><description># 我的第一篇博客
 
 今天开始用 GitHub 搭建自己的博客。</description><guid isPermaLink="true">https://2SHANLIANG1.github.io/xiaoAB/post/wo-de-di-yi-pian-bo-ke.html</guid><pubDate>Fri, 12 Jun 2026 07:17:04 +0000</pubDate></item></channel></rss>
